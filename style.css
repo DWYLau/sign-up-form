@@ -20,37 +20,38 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  padding-top: 20px;
+  padding-top: 10px;
   background-image: url(assets/manchester.jpg);
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
+  opacity: 0.85;
 }
 
 .sidenav .bar {
-  height: 60px; 
+  height: 70px;
   padding: 10px;
   position: relative;
   bottom: 3.8em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
   background-color: black;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .sidenav h1 {
   font-family: babylonica;
-  font-size: 2.6em;
+  font-size: 2.8em;
   color: rgb(0, 0, 0);
   position: relative;
   padding: 20px;
-  top: 1em;
+  top: 1.2em;
   text-align: center;
 }
 
 .sidenav footer {
-  font-family: merriweather-sans; 
+  font-family: merriweather-sans;
   font-size: 0.9em;
-  color: white;  
+  color: white;
   position: fixed;
   padding: 10px;
   margin-left: 45px;
@@ -62,3 +63,23 @@ a {
   border-color: 1px solid black;
   margin-left: 350px;
 }
+
+.top {
+  padding-top: 20px;
+  height: 150px;
+  background-color: #e2e5eb;
+  background-image: linear-gradient(160deg, #e2e5eb 0%, #96e0d8 150%);
+}
+
+.top h1 {
+  margin: 20px 20px 20px 40px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 25px;
+}
+
+h1 span {
+  font-style: italic;
+}
+
+
