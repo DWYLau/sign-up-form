@@ -10,7 +10,12 @@
 }
 
 body {
-  font-family: merriweather-sans;
+  font-family: merriweather-sans, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 a {
@@ -18,14 +23,14 @@ a {
 }
 
 .sidenav {
-  font-family: babylonica;
+  font-family: babylonica, sans-serif;
   height: 100%;
-  width: 350px;
+  width: 30vw;
   position: fixed;
   top: 0;
   left: 0;
   padding-top: 10px;
-  background-image: url(assets/manchester.jpg);
+  background-image: url(assets/ocean.jpg);
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
@@ -33,27 +38,26 @@ a {
 }
 
 .sidenav .bar {
-  height: 70px;
+  height: 100px;
   padding: 10px;
   position: relative;
-  bottom: 3.8em;
+  top: 6em;
   margin-bottom: 4em;
   background-color: black;
-  opacity: 0.15;
+  opacity: 0.2;
 }
 
 .sidenav h1 {
-  font-family: babylonica;
-  font-size: 2.8em;
-  color: rgb(0, 0, 0);
+  font-size: 4.4em;
+  color: black;
   position: relative;
   padding: 20px;
-  top: 1.2em;
+  top: 2.8em;
   text-align: center;
 }
 
 .sidenav footer {
-  font-family: merriweather-sans;
+  font-family: merriweather-sans, sans-serif;
   font-size: 0.9em;
   color: white;
   position: fixed;
@@ -64,27 +68,31 @@ a {
 }
 
 .main {
-  margin-left: 350px;
+  font-family: merriweather-sans, sans-serif;
+  margin-left: 30vw;
   overflow-y: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .top {
-  padding-top: 20px;
-  height: 140px;
+  padding-top: 10px;
+  height: 23vh;
   background-color: #e2e5eb;
   background-image: linear-gradient(160deg, #e2e5eb 0%, #96e0d8 150%);
 }
 
 .center {
-  padding-top: 20px;
-  height: 200px;
-  display: block;
-  text-align: center;
+  height: 50vh;
+  display: block; 
 }
 
 .top h1, .center h1 {
-  margin: 15px 15px 15px 30px;
+  margin: 25px 25px 25px 40px;
+  padding: 5px;
   font-weight: bold;
+  font-size:larger;
   text-align: left;
   line-height: 25px;
 }
@@ -95,10 +103,25 @@ h1 span {
 
 .form {
   font-size: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 2.1vw;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 label {
-  font-size: 2em;
+  font-size: 1.5em;
+  
 }
 
 input[type="text"],
@@ -106,8 +129,8 @@ input[type="email"],
 input[type="number"],
 input[type="password"] {
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-  max-width: 150px;
+  max-width: 400px;
+  padding: 5px;
+  margin-top: 5px;
 }
 

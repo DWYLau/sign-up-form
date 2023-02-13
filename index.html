@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up Form</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset.css" />
+</head>
+
+<body>
+  <div class="content">
     <div class="sidenav">
-      <h1 class="logo">Manchester Delivery Service</h1>
+      <h1 class="logo">Sign Up Form</h1>
       <div class="bar"></div>
       <footer>
-        Photo by
-        <a
-          href="https://unsplash.com/@mirzazohaib51?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Zohaib Alam</a
-        >
-        on
-        <a
-          href="https://unsplash.com/photos/hXwUcFWfSx4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Unsplash</a
-        >
+        Photo by <a
+          href="https://unsplash.com/@srijancm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Srijan
+          Mohan</a> on <a
+          href="https://unsplash.com/photos/lG2iEezbemg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       </footer>
     </div>
 
     <main class="main">
       <header class="top">
         <h1>
-          Welcome to Manchester Delivery Service! You know you need something
+          Welcome to the Sign Up Form! You know you need something
           like this in your life to help you realise your deepest dreams. Sign
           up now to get started.
         </h1>
@@ -41,35 +37,33 @@
         <h1>Let's do this!</h1>
 
         <form class="form" method="post">
-          <div>
+          <div class="input">
             <label for="first_name">First Name</label>
             <input type="text" id="first_name" name="first_name" required />
           </div>
 
-          <div>
+          <div class="input">
             <label for="last_name">Last Name</label>
             <input type="text" id="last_name" name="last_name" required />
           </div>
 
-          <div>
+          <div class="input">
             <label for="email">Email</label>
             <input type="email" id="email" name="last_name" required />
           </div>
-          <div>
+
+          <div class="input">
             <label for="phone_number">Phone Number</label>
-            <input
-              type="number"
-              id="phone_number"
-              name="phone_number"
-              required
-            />
+            <input type="number" id="phone_number" name="phone_number" required />
           </div>
-          <div>
+          <div class="input">
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required />
           </div>
         </form>
       </div>
     </main>
-  </body>
+  </div>
+</body>
+
 </html>
