@@ -5,6 +5,10 @@
   src: url(fonts/Babylonica-Regular.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: merriweather-sans;
 }
@@ -60,19 +64,26 @@ a {
 }
 
 .main {
-  border-color: 1px solid black;
   margin-left: 350px;
+  overflow-y: auto;
 }
 
 .top {
   padding-top: 20px;
-  height: 150px;
+  height: 140px;
   background-color: #e2e5eb;
   background-image: linear-gradient(160deg, #e2e5eb 0%, #96e0d8 150%);
 }
 
-.top h1 {
-  margin: 20px 20px 20px 40px;
+.center {
+  padding-top: 20px;
+  height: 200px;
+  display: block;
+  text-align: center;
+}
+
+.top h1, .center h1 {
+  margin: 15px 15px 15px 30px;
   font-weight: bold;
   text-align: left;
   line-height: 25px;
@@ -82,4 +93,21 @@ h1 span {
   font-style: italic;
 }
 
+.form {
+  font-size: 80%;
+}
+
+label {
+  font-size: 2em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  max-width: 150px;
+}
 
