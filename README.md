@@ -1,10 +1,10 @@
-Project - Sign Up Form
+# Project - Sign Up Form
 
-About
+## About
 
 Demo sign-up form project for The Odin Project.
 
-Aims
+## Aims
 
 1. Practice using HTML form basics and validation.
 2. Practice using pseudo-classes.
@@ -12,7 +12,7 @@ Aims
 4. Review how to use Flexbox.
 5. Add custom fonts.
 
-Languages
+## Languages
 
 • HTML
 • CSS
