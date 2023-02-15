@@ -11,6 +11,7 @@ Demo sign-up form project for The Odin Project.
 3. Use advanced CSS selectors.
 4. Review how to use Flexbox.
 5. Add custom fonts.
+6. Practice adding support for mobile devices.
 
 ## Languages
 
